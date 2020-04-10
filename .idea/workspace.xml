@@ -2,12 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e3b9dfb6-524f-45ea-a39a-56e6877e4c38" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/demo01/src/main/java/com/cn/demo01/mybatisPlusConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo02/src/main/java/com/cn/demo02/Config/MybatisPlusConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo01/src/main/java/com/cn/demo01/Pojo/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo01/src/main/java/com/cn/demo01/Pojo/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo01/src/main/java/com/cn/demo01/mybatisPlusConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo01/src/main/java/com/cn/demo01/Config/mybatisPlusConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/demo01/src/test/java/com/cn/demo01/Demo01ApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo01/src/test/java/com/cn/demo01/Demo01ApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo01/target/classes/com/cn/demo01/Pojo/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/demo01/target/classes/com/cn/demo01/Pojo/User.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/demo01/target/test-classes/com/cn/demo01/Demo01ApplicationTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/demo01/target/test-classes/com/cn/demo01/Demo01ApplicationTests.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo02/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/demo02/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo02/src/main/java/com/cn/demo02/Mapper/UserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo02/src/main/java/com/cn/demo02/Mapper/UserMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo02/src/main/java/com/cn/demo02/Pojo/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo02/src/main/java/com/cn/demo02/Pojo/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo02/src/main/java/com/cn/demo02/Service/Impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo02/src/main/java/com/cn/demo02/Service/Impl/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo02/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/demo02/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo02/src/main/resources/mapper/UserMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo02/src/test/java/com/cn/demo02/Demo02ApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo02/src/test/java/com/cn/demo02/Demo02ApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo02/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/demo02/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo02/target/classes/com/cn/demo02/Mapper/UserMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/demo02/target/classes/com/cn/demo02/Mapper/UserMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo02/target/classes/com/cn/demo02/Pojo/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/demo02/target/classes/com/cn/demo02/Pojo/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo02/target/classes/com/cn/demo02/Service/Impl/UserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/demo02/target/classes/com/cn/demo02/Service/Impl/UserServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo02/target/classes/mapper/UserMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo02/target/test-classes/com/cn/demo02/Demo02ApplicationTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/demo02/target/test-classes/com/cn/demo02/Demo02ApplicationTests.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,6 +97,7 @@
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -95,8 +109,24 @@
   <component name="RebelAgentSelection">
     <selection>jr</selection>
   </component>
-  <component name="RunManager" selected="JUnit.Demo01ApplicationTests.contextLoads">
+  <component name="RunManager" selected="JUnit.Demo02ApplicationTests.page">
     <configuration name="Demo01ApplicationTests.contextLoads" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="demo01" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cn.demo01.Config.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.cn.demo01" />
+      <option name="MAIN_CLASS_NAME" value="com.cn.demo01.Demo01ApplicationTests" />
+      <option name="METHOD_NAME" value="contextLoads" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Demo01ApplicationTests.testPage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="demo01" />
       <extension name="coverage">
         <pattern>
@@ -106,7 +136,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.cn.demo01" />
       <option name="MAIN_CLASS_NAME" value="com.cn.demo01.Demo01ApplicationTests" />
-      <option name="METHOD_NAME" value="contextLoads" />
+      <option name="METHOD_NAME" value="testPage" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -128,6 +158,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Demo02ApplicationTests.delete_MP" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="demo02" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cn.demo02.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.cn.demo02" />
+      <option name="MAIN_CLASS_NAME" value="com.cn.demo02.Demo02ApplicationTests" />
+      <option name="METHOD_NAME" value="delete_MP" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Demo02ApplicationTests.page" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="demo02" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cn.demo02.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.cn.demo02" />
+      <option name="MAIN_CLASS_NAME" value="com.cn.demo02.Demo02ApplicationTests" />
+      <option name="METHOD_NAME" value="page" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Demo01Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="demo01" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.cn.demo01.Demo01Application" />
@@ -144,8 +206,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.Demo01ApplicationTests.contextLoads" />
+        <item itemvalue="JUnit.Demo02ApplicationTests.page" />
+        <item itemvalue="JUnit.Demo02ApplicationTests.delete_MP" />
         <item itemvalue="JUnit.Demo02ApplicationTests.contextLoads" />
+        <item itemvalue="JUnit.Demo01ApplicationTests.contextLoads" />
+        <item itemvalue="JUnit.Demo01ApplicationTests.testPage" />
       </list>
     </recent_temporary>
   </component>
@@ -183,7 +248,7 @@
       <updated>1586435482108</updated>
       <workItem from="1586435486058" duration="18026000" />
       <workItem from="1586489807837" duration="2081000" />
-      <workItem from="1586491931828" duration="2507000" />
+      <workItem from="1586491931828" duration="5730000" />
     </task>
     <task id="LOCAL-00001" summary="springboot集成mybatis(xml方式)">
       <created>1586489948615</created>
@@ -206,7 +271,14 @@
       <option name="project" value="LOCAL" />
       <updated>1586493698597</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="添加了乐观锁的version,用于避免并发条件下的脏读问题">
+      <created>1586494544296</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1586494544296</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -229,7 +301,8 @@
     <MESSAGE value="springboot集成mybatis(xml方式)" />
     <MESSAGE value="springboot集成mybatis_plus(实现了简单的增删改查)" />
     <MESSAGE value="实现了默认字段的修改（create_time,update_time）" />
-    <option name="LAST_COMMIT_MESSAGE" value="实现了默认字段的修改（create_time,update_time）" />
+    <MESSAGE value="添加了乐观锁的version,用于避免并发条件下的脏读问题" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加了乐观锁的version,用于避免并发条件下的脏读问题" />
   </component>
   <component name="WindowStateProjectService">
     <state x="233" y="42" key="#Project_Structure" timestamp="1586439713346">
@@ -244,10 +317,10 @@
       <screen x="0" y="0" width="1280" height="760" />
     </state>
     <state x="446" y="89" key="#com.intellij.ide.util.MemberChooser/0.0.1280.760@0.0.1280.760" timestamp="1586440879538" />
-    <state x="190" y="0" key="CommitChangelistDialog2" timestamp="1586493697750">
+    <state x="190" y="0" key="CommitChangelistDialog2" timestamp="1586494543445">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
-    <state x="190" y="0" key="CommitChangelistDialog2/0.0.1280.760@0.0.1280.760" timestamp="1586493697750" />
+    <state x="190" y="0" key="CommitChangelistDialog2/0.0.1280.760@0.0.1280.760" timestamp="1586494543445" />
     <state x="422" y="140" key="FileChooserDialogImpl" timestamp="1586489404734">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
@@ -256,38 +329,38 @@
       <screen x="0" y="0" width="1280" height="760" />
     </state>
     <state x="508" y="276" width="269" height="206" key="Github.ShareDialog/0.0.1280.760@0.0.1280.760" timestamp="1586488885810" />
-    <state width="1238" height="148" key="GridCell.Tab.0.bottom" timestamp="1586494459541">
+    <state width="1238" height="189" key="GridCell.Tab.0.bottom" timestamp="1586497652179">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
-    <state width="1238" height="148" key="GridCell.Tab.0.bottom/0.0.1280.760@0.0.1280.760" timestamp="1586494459541" />
-    <state width="1238" height="148" key="GridCell.Tab.0.center" timestamp="1586494459541">
+    <state width="1238" height="189" key="GridCell.Tab.0.bottom/0.0.1280.760@0.0.1280.760" timestamp="1586497652179" />
+    <state width="1238" height="189" key="GridCell.Tab.0.center" timestamp="1586497652179">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
-    <state width="1238" height="148" key="GridCell.Tab.0.center/0.0.1280.760@0.0.1280.760" timestamp="1586494459541" />
-    <state width="1238" height="148" key="GridCell.Tab.0.left" timestamp="1586494459541">
+    <state width="1238" height="189" key="GridCell.Tab.0.center/0.0.1280.760@0.0.1280.760" timestamp="1586497652179" />
+    <state width="1238" height="189" key="GridCell.Tab.0.left" timestamp="1586497652179">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
-    <state width="1238" height="148" key="GridCell.Tab.0.left/0.0.1280.760@0.0.1280.760" timestamp="1586494459541" />
-    <state width="1238" height="148" key="GridCell.Tab.0.right" timestamp="1586494459541">
+    <state width="1238" height="189" key="GridCell.Tab.0.left/0.0.1280.760@0.0.1280.760" timestamp="1586497652179" />
+    <state width="1238" height="189" key="GridCell.Tab.0.right" timestamp="1586497652179">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
-    <state width="1238" height="148" key="GridCell.Tab.0.right/0.0.1280.760@0.0.1280.760" timestamp="1586494459541" />
-    <state width="1238" height="147" key="GridCell.Tab.1.bottom" timestamp="1586490797444">
+    <state width="1238" height="189" key="GridCell.Tab.0.right/0.0.1280.760@0.0.1280.760" timestamp="1586497652179" />
+    <state width="1238" height="280" key="GridCell.Tab.1.bottom" timestamp="1586495969369">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
-    <state width="1238" height="147" key="GridCell.Tab.1.bottom/0.0.1280.760@0.0.1280.760" timestamp="1586490797444" />
-    <state width="1238" height="147" key="GridCell.Tab.1.center" timestamp="1586490797444">
+    <state width="1238" height="280" key="GridCell.Tab.1.bottom/0.0.1280.760@0.0.1280.760" timestamp="1586495969369" />
+    <state width="1238" height="280" key="GridCell.Tab.1.center" timestamp="1586495969369">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
-    <state width="1238" height="147" key="GridCell.Tab.1.center/0.0.1280.760@0.0.1280.760" timestamp="1586490797444" />
-    <state width="1238" height="147" key="GridCell.Tab.1.left" timestamp="1586490797444">
+    <state width="1238" height="280" key="GridCell.Tab.1.center/0.0.1280.760@0.0.1280.760" timestamp="1586495969369" />
+    <state width="1238" height="280" key="GridCell.Tab.1.left" timestamp="1586495969369">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
-    <state width="1238" height="147" key="GridCell.Tab.1.left/0.0.1280.760@0.0.1280.760" timestamp="1586490797444" />
-    <state width="1238" height="147" key="GridCell.Tab.1.right" timestamp="1586490797444">
+    <state width="1238" height="280" key="GridCell.Tab.1.left/0.0.1280.760@0.0.1280.760" timestamp="1586495969369" />
+    <state width="1238" height="280" key="GridCell.Tab.1.right" timestamp="1586495969369">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
-    <state width="1238" height="147" key="GridCell.Tab.1.right/0.0.1280.760@0.0.1280.760" timestamp="1586490797444" />
+    <state width="1238" height="280" key="GridCell.Tab.1.right/0.0.1280.760@0.0.1280.760" timestamp="1586495969369" />
     <state width="1238" height="63" key="GridCell.Tab.2.bottom" timestamp="1586489773172">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
@@ -308,10 +381,10 @@
       <screen x="0" y="0" width="1280" height="760" />
     </state>
     <state width="214" height="477" key="HiddenNamespacesPopup/0.0.1280.760@0.0.1280.760" timestamp="1586491367956" />
-    <state x="144" y="0" key="SettingsEditor" timestamp="1586491905012">
+    <state x="144" y="0" key="SettingsEditor" timestamp="1586495351747">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
-    <state x="144" y="0" key="SettingsEditor/0.0.1280.760@0.0.1280.760" timestamp="1586491905012" />
+    <state x="144" y="0" key="SettingsEditor/0.0.1280.760@0.0.1280.760" timestamp="1586495351747" />
     <state x="118" y="129" key="Vcs.Push.Dialog.v2" timestamp="1586493728054">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
