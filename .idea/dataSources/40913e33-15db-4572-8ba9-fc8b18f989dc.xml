@@ -1114,5 +1114,36 @@
       <Charset>utf8mb4</Charset>
       <DefaultForCharset>0</DefaultForCharset>
     </collation>
+    <table id="280" parent="7" name="user"/>
+    <column id="281" parent="280" name="id">
+      <Position>1</Position>
+      <Comment>用户id</Comment>
+      <DataType>varchar(36)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="282" parent="280" name="username">
+      <Position>2</Position>
+      <Comment>用户名</Comment>
+      <DataType>varchar(45)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="283" parent="280" name="password">
+      <Position>3</Position>
+      <Comment>密码</Comment>
+      <DataType>varchar(36)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="284" parent="280" name="age">
+      <Position>4</Position>
+      <Comment>用户年龄</Comment>
+      <DataType>int|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <key id="285" parent="280" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+    </key>
   </database-model>
 </dataSource>

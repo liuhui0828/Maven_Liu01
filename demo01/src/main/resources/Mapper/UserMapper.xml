@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
-<mapper namespace="com.cn.demo01.Mapper.UserMapper" >
-
-    <select id="getAllUser" resultType="com.cn.demo01.Pojo.User">
-        select * from user
-    </select>
-
-</mapper>
