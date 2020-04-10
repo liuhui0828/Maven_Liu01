@@ -2,6 +2,7 @@ package com.cn.demo01;
 
 import com.cn.demo01.Mapper.UserMapper;
 import com.cn.demo01.Pojo.User;
+import lombok.val;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
@@ -27,8 +28,8 @@ class Demo01ApplicationTests {
 //        userMapper.updateById(newUser);
 
         //默认字段（create_time,updatetime的更新操作）
-        User user = new User("erwa1","1234567dasda",13);
-        user.setId(6);
+        User user = userMapper.selectById(6);
+        user.setAge(13);
         userMapper.updateById(user);
         //查
 //        List<User> users = userMapper.selectList(null);

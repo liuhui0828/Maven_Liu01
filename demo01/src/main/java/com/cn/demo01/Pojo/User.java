@@ -2,6 +2,7 @@ package com.cn.demo01.Pojo;
 
 import com.baomidou.mybatisplus.annotation.IdType;
 import com.baomidou.mybatisplus.annotation.TableId;
+import com.baomidou.mybatisplus.annotation.Version;
 import lombok.*;
 
 import java.util.Date;
@@ -22,4 +23,7 @@ public class User {
 
     Date create_time;
     Date update_time;
+
+    @Version //乐观锁
+    int version;
 }

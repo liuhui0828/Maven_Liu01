@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e3b9dfb6-524f-45ea-a39a-56e6877e4c38" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/demo01/src/main/java/com/cn/demo01/mybatisPlusConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/demo01/src/main/java/com/cn/demo01/Pojo/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo01/src/main/java/com/cn/demo01/Pojo/User.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/demo01/src/test/java/com/cn/demo01/Demo01ApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo01/src/test/java/com/cn/demo01/Demo01ApplicationTests.java" afterDir="false" />
@@ -46,8 +47,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="HTML File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -182,7 +183,7 @@
       <updated>1586435482108</updated>
       <workItem from="1586435486058" duration="18026000" />
       <workItem from="1586489807837" duration="2081000" />
-      <workItem from="1586491931828" duration="1726000" />
+      <workItem from="1586491931828" duration="2507000" />
     </task>
     <task id="LOCAL-00001" summary="springboot集成mybatis(xml方式)">
       <created>1586489948615</created>
@@ -198,7 +199,14 @@
       <option name="project" value="LOCAL" />
       <updated>1586492398370</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="实现了默认字段的修改（create_time,update_time）">
+      <created>1586493698597</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1586493698597</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -220,7 +228,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="springboot集成mybatis(xml方式)" />
     <MESSAGE value="springboot集成mybatis_plus(实现了简单的增删改查)" />
-    <option name="LAST_COMMIT_MESSAGE" value="springboot集成mybatis_plus(实现了简单的增删改查)" />
+    <MESSAGE value="实现了默认字段的修改（create_time,update_time）" />
+    <option name="LAST_COMMIT_MESSAGE" value="实现了默认字段的修改（create_time,update_time）" />
   </component>
   <component name="WindowStateProjectService">
     <state x="233" y="42" key="#Project_Structure" timestamp="1586439713346">
@@ -235,10 +244,10 @@
       <screen x="0" y="0" width="1280" height="760" />
     </state>
     <state x="446" y="89" key="#com.intellij.ide.util.MemberChooser/0.0.1280.760@0.0.1280.760" timestamp="1586440879538" />
-    <state x="190" y="0" key="CommitChangelistDialog2" timestamp="1586492397128">
+    <state x="190" y="0" key="CommitChangelistDialog2" timestamp="1586493697750">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
-    <state x="190" y="0" key="CommitChangelistDialog2/0.0.1280.760@0.0.1280.760" timestamp="1586492397128" />
+    <state x="190" y="0" key="CommitChangelistDialog2/0.0.1280.760@0.0.1280.760" timestamp="1586493697750" />
     <state x="422" y="140" key="FileChooserDialogImpl" timestamp="1586489404734">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
@@ -247,22 +256,22 @@
       <screen x="0" y="0" width="1280" height="760" />
     </state>
     <state x="508" y="276" width="269" height="206" key="Github.ShareDialog/0.0.1280.760@0.0.1280.760" timestamp="1586488885810" />
-    <state width="1238" height="134" key="GridCell.Tab.0.bottom" timestamp="1586493516982">
+    <state width="1238" height="148" key="GridCell.Tab.0.bottom" timestamp="1586494459541">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
-    <state width="1238" height="134" key="GridCell.Tab.0.bottom/0.0.1280.760@0.0.1280.760" timestamp="1586493516982" />
-    <state width="1238" height="134" key="GridCell.Tab.0.center" timestamp="1586493516982">
+    <state width="1238" height="148" key="GridCell.Tab.0.bottom/0.0.1280.760@0.0.1280.760" timestamp="1586494459541" />
+    <state width="1238" height="148" key="GridCell.Tab.0.center" timestamp="1586494459541">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
-    <state width="1238" height="134" key="GridCell.Tab.0.center/0.0.1280.760@0.0.1280.760" timestamp="1586493516982" />
-    <state width="1238" height="134" key="GridCell.Tab.0.left" timestamp="1586493516982">
+    <state width="1238" height="148" key="GridCell.Tab.0.center/0.0.1280.760@0.0.1280.760" timestamp="1586494459541" />
+    <state width="1238" height="148" key="GridCell.Tab.0.left" timestamp="1586494459541">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
-    <state width="1238" height="134" key="GridCell.Tab.0.left/0.0.1280.760@0.0.1280.760" timestamp="1586493516982" />
-    <state width="1238" height="134" key="GridCell.Tab.0.right" timestamp="1586493516982">
+    <state width="1238" height="148" key="GridCell.Tab.0.left/0.0.1280.760@0.0.1280.760" timestamp="1586494459541" />
+    <state width="1238" height="148" key="GridCell.Tab.0.right" timestamp="1586494459541">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
-    <state width="1238" height="134" key="GridCell.Tab.0.right/0.0.1280.760@0.0.1280.760" timestamp="1586493516982" />
+    <state width="1238" height="148" key="GridCell.Tab.0.right/0.0.1280.760@0.0.1280.760" timestamp="1586494459541" />
     <state width="1238" height="147" key="GridCell.Tab.1.bottom" timestamp="1586490797444">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
@@ -303,10 +312,10 @@
       <screen x="0" y="0" width="1280" height="760" />
     </state>
     <state x="144" y="0" key="SettingsEditor/0.0.1280.760@0.0.1280.760" timestamp="1586491905012" />
-    <state x="118" y="129" key="Vcs.Push.Dialog.v2" timestamp="1586490195659">
+    <state x="118" y="129" key="Vcs.Push.Dialog.v2" timestamp="1586493728054">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
-    <state x="118" y="129" key="Vcs.Push.Dialog.v2/0.0.1280.760@0.0.1280.760" timestamp="1586490195659" />
+    <state x="118" y="129" key="Vcs.Push.Dialog.v2/0.0.1280.760@0.0.1280.760" timestamp="1586493728054" />
     <state x="371" y="189" key="com.intellij.database.dbimport.ImportUtil.MyDialog" timestamp="1586493366357">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
