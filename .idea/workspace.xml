@@ -2,13 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e3b9dfb6-524f-45ea-a39a-56e6877e4c38" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/demo/src/main/java/com/cn/demo/Config/MybatisPlus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/main/java/com/cn/demo/Controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/main/java/com/cn/demo/Mapper/UserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/main/java/com/cn/demo/Pojo/UserInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/main/java/com/cn/demo/Service/Impl/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/main/java/com/cn/demo/Service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo01/src/main/java/com/cn/demo01/Config/mybatisPlusConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo01/src/main/java/com/cn/demo01/Config/mybatisPlusConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo01/src/main/java/com/cn/demo01/Pojo/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo01/src/main/java/com/cn/demo01/Pojo/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo01/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/demo01/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo01/src/test/java/com/cn/demo01/Demo01ApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo01/src/test/java/com/cn/demo01/Demo01ApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo01/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/demo01/target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo01/target/classes/com/cn/demo01/Pojo/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/demo01/target/classes/com/cn/demo01/Pojo/User.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/demo01/target/test-classes/com/cn/demo01/Demo01ApplicationTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/demo01/target/test-classes/com/cn/demo01/Demo01ApplicationTests.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -50,6 +53,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
+        <option value="Kotlin File" />
         <option value="Class" />
       </list>
     </option>
@@ -72,7 +76,9 @@
     </option>
   </component>
   <component name="ProjectId" id="1aIuZJfV28AqCYNVjsqVZbe7h7x" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -98,7 +104,7 @@
   <component name="RebelAgentSelection">
     <selection>jr</selection>
   </component>
-  <component name="RunManager" selected="JUnit.Demo01ApplicationTests.ifConfig">
+  <component name="RunManager" selected="Spring Boot.DemoApplication (1)">
     <configuration name="Demo01ApplicationTests.deleteLogic" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="demo01" />
       <extension name="coverage">
@@ -193,6 +199,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="DemoApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="demo" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.cn.demo.DemoApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="demo" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.cn.demo03.demo.DemoApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.Demo01ApplicationTests.ifConfig" />
@@ -208,17 +228,7 @@
       <list>
         <serviceView>
           <treeState>
-            <expand>
-              <path>
-                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-                <item name="root:MySQL - test@localhost" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              </path>
-              <path>
-                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-                <item name="root:MySQL - test@localhost" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-                <item name="com.intellij.database.console.session.MessageBusSession@57d93021" type="9fbbdea:ServiceModel$ServiceNode" />
-              </path>
-            </expand>
+            <expand />
             <select />
           </treeState>
         </serviceView>
@@ -237,7 +247,7 @@
       <updated>1586435482108</updated>
       <workItem from="1586435486058" duration="18026000" />
       <workItem from="1586489807837" duration="2081000" />
-      <workItem from="1586491931828" duration="6724000" />
+      <workItem from="1586491931828" duration="10799000" />
     </task>
     <task id="LOCAL-00001" summary="springboot集成mybatis(xml方式)">
       <created>1586489948615</created>
@@ -274,7 +284,14 @@
       <option name="project" value="LOCAL" />
       <updated>1586497838950</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="demo1的后续">
+      <created>1586498913439</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1586498913439</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -299,7 +316,8 @@
     <MESSAGE value="实现了默认字段的修改（create_time,update_time）" />
     <MESSAGE value="添加了乐观锁的version,用于避免并发条件下的脏读问题" />
     <MESSAGE value="demo2的跟进" />
-    <option name="LAST_COMMIT_MESSAGE" value="demo2的跟进" />
+    <MESSAGE value="demo1的后续" />
+    <option name="LAST_COMMIT_MESSAGE" value="demo1的后续" />
   </component>
   <component name="WindowStateProjectService">
     <state x="233" y="42" key="#Project_Structure" timestamp="1586439713346">
@@ -310,14 +328,18 @@
       <screen x="0" y="0" width="1280" height="760" />
     </state>
     <state x="233" y="42" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.760@0.0.1280.760" timestamp="1586478166304" />
+    <state x="396" y="189" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1586508634378">
+      <screen x="0" y="0" width="1280" height="760" />
+    </state>
+    <state x="396" y="189" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1280.760@0.0.1280.760" timestamp="1586508634378" />
     <state x="446" y="89" key="#com.intellij.ide.util.MemberChooser" timestamp="1586440879538">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
     <state x="446" y="89" key="#com.intellij.ide.util.MemberChooser/0.0.1280.760@0.0.1280.760" timestamp="1586440879538" />
-    <state x="190" y="0" key="CommitChangelistDialog2" timestamp="1586497837768">
+    <state x="190" y="0" key="CommitChangelistDialog2" timestamp="1586498912480">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
-    <state x="190" y="0" key="CommitChangelistDialog2/0.0.1280.760@0.0.1280.760" timestamp="1586497837768" />
+    <state x="190" y="0" key="CommitChangelistDialog2/0.0.1280.760@0.0.1280.760" timestamp="1586498912480" />
     <state x="422" y="140" key="FileChooserDialogImpl" timestamp="1586489404734">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
@@ -326,38 +348,38 @@
       <screen x="0" y="0" width="1280" height="760" />
     </state>
     <state x="508" y="276" width="269" height="206" key="Github.ShareDialog/0.0.1280.760@0.0.1280.760" timestamp="1586488885810" />
-    <state width="1238" height="351" key="GridCell.Tab.0.bottom" timestamp="1586498852808">
+    <state width="1238" height="400" key="GridCell.Tab.0.bottom" timestamp="1586511873678">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
-    <state width="1238" height="351" key="GridCell.Tab.0.bottom/0.0.1280.760@0.0.1280.760" timestamp="1586498852808" />
-    <state width="1238" height="351" key="GridCell.Tab.0.center" timestamp="1586498852808">
+    <state width="1238" height="400" key="GridCell.Tab.0.bottom/0.0.1280.760@0.0.1280.760" timestamp="1586511873678" />
+    <state width="1238" height="400" key="GridCell.Tab.0.center" timestamp="1586511873678">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
-    <state width="1238" height="351" key="GridCell.Tab.0.center/0.0.1280.760@0.0.1280.760" timestamp="1586498852808" />
-    <state width="1238" height="351" key="GridCell.Tab.0.left" timestamp="1586498852807">
+    <state width="1238" height="400" key="GridCell.Tab.0.center/0.0.1280.760@0.0.1280.760" timestamp="1586511873678" />
+    <state width="1238" height="400" key="GridCell.Tab.0.left" timestamp="1586511873678">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
-    <state width="1238" height="351" key="GridCell.Tab.0.left/0.0.1280.760@0.0.1280.760" timestamp="1586498852807" />
-    <state width="1238" height="351" key="GridCell.Tab.0.right" timestamp="1586498852808">
+    <state width="1238" height="400" key="GridCell.Tab.0.left/0.0.1280.760@0.0.1280.760" timestamp="1586511873678" />
+    <state width="1238" height="400" key="GridCell.Tab.0.right" timestamp="1586511873678">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
-    <state width="1238" height="351" key="GridCell.Tab.0.right/0.0.1280.760@0.0.1280.760" timestamp="1586498852808" />
-    <state width="1238" height="280" key="GridCell.Tab.1.bottom" timestamp="1586495969369">
+    <state width="1238" height="400" key="GridCell.Tab.0.right/0.0.1280.760@0.0.1280.760" timestamp="1586511873678" />
+    <state width="1238" height="400" key="GridCell.Tab.1.bottom" timestamp="1586511873678">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
-    <state width="1238" height="280" key="GridCell.Tab.1.bottom/0.0.1280.760@0.0.1280.760" timestamp="1586495969369" />
-    <state width="1238" height="280" key="GridCell.Tab.1.center" timestamp="1586495969369">
+    <state width="1238" height="400" key="GridCell.Tab.1.bottom/0.0.1280.760@0.0.1280.760" timestamp="1586511873678" />
+    <state width="1238" height="400" key="GridCell.Tab.1.center" timestamp="1586511873678">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
-    <state width="1238" height="280" key="GridCell.Tab.1.center/0.0.1280.760@0.0.1280.760" timestamp="1586495969369" />
-    <state width="1238" height="280" key="GridCell.Tab.1.left" timestamp="1586495969369">
+    <state width="1238" height="400" key="GridCell.Tab.1.center/0.0.1280.760@0.0.1280.760" timestamp="1586511873678" />
+    <state width="1238" height="400" key="GridCell.Tab.1.left" timestamp="1586511873678">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
-    <state width="1238" height="280" key="GridCell.Tab.1.left/0.0.1280.760@0.0.1280.760" timestamp="1586495969369" />
-    <state width="1238" height="280" key="GridCell.Tab.1.right" timestamp="1586495969369">
+    <state width="1238" height="400" key="GridCell.Tab.1.left/0.0.1280.760@0.0.1280.760" timestamp="1586511873678" />
+    <state width="1238" height="400" key="GridCell.Tab.1.right" timestamp="1586511873678">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
-    <state width="1238" height="280" key="GridCell.Tab.1.right/0.0.1280.760@0.0.1280.760" timestamp="1586495969369" />
+    <state width="1238" height="400" key="GridCell.Tab.1.right/0.0.1280.760@0.0.1280.760" timestamp="1586511873678" />
     <state width="1238" height="63" key="GridCell.Tab.2.bottom" timestamp="1586489773172">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
@@ -382,18 +404,18 @@
       <screen x="0" y="0" width="1280" height="760" />
     </state>
     <state x="144" y="0" key="SettingsEditor/0.0.1280.760@0.0.1280.760" timestamp="1586495351747" />
-    <state x="118" y="129" key="Vcs.Push.Dialog.v2" timestamp="1586493728054">
+    <state x="118" y="129" key="Vcs.Push.Dialog.v2" timestamp="1586498952434">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
-    <state x="118" y="129" key="Vcs.Push.Dialog.v2/0.0.1280.760@0.0.1280.760" timestamp="1586493728054" />
+    <state x="118" y="129" key="Vcs.Push.Dialog.v2/0.0.1280.760@0.0.1280.760" timestamp="1586498952434" />
     <state x="371" y="189" key="com.intellij.database.dbimport.ImportUtil.MyDialog" timestamp="1586493366357">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
     <state x="371" y="189" key="com.intellij.database.dbimport.ImportUtil.MyDialog/0.0.1280.760@0.0.1280.760" timestamp="1586493366357" />
-    <state x="6" y="85" key="new project wizard" timestamp="1586439682235">
+    <state x="6" y="85" key="new project wizard" timestamp="1586508268793">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
-    <state x="6" y="85" key="new project wizard/0.0.1280.760@0.0.1280.760" timestamp="1586439682235" />
+    <state x="6" y="85" key="new project wizard/0.0.1280.760@0.0.1280.760" timestamp="1586508268793" />
     <state x="303" y="82" width="672" height="678" key="search.everywhere.popup" timestamp="1586498135974">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
