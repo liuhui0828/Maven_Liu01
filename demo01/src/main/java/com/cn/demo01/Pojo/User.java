@@ -2,6 +2,7 @@ package com.cn.demo01.Pojo;
 
 import com.baomidou.mybatisplus.annotation.IdType;
 import com.baomidou.mybatisplus.annotation.TableId;
+import com.baomidou.mybatisplus.annotation.TableLogic;
 import com.baomidou.mybatisplus.annotation.Version;
 import lombok.*;
 
@@ -26,4 +27,7 @@ public class User {
 
     @Version //乐观锁
     int version;
+
+    @TableLogic  //逻辑删除
+    int deleted;
 }
