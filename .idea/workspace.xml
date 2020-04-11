@@ -1,7 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e3b9dfb6-524f-45ea-a39a-56e6877e4c38" name="Default Changelist" comment="" />
+    <list default="true" id="e3b9dfb6-524f-45ea-a39a-56e6877e4c38" name="Default Changelist" comment="下午训练MP">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo03/src/main/java/com/cn/demo03/Controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo03/src/main/java/com/cn/demo03/Mapper/UserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo03/src/main/java/com/cn/demo03/Pojo/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo03/src/main/java/com/cn/demo03/Sevice/Impl/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo03/src/main/java/com/cn/demo03/Sevice/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo03/src/main/resources/mapper/UserMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -18,24 +32,27 @@
     <option name="HIDDEN_KINDS">
       <set />
     </option>
-    <expand>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="MySQL - test@localhost" type="feb32156:DbDataSourceImpl" />
-      </path>
-    </expand>
+    <expand />
     <select />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="HTML File" />
+        <option value="Kotlin File" />
+        <option value="FxmlFile" />
+        <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="PATH_TO_GIT" value="F:\Git\bin\git.exe" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
@@ -52,7 +69,9 @@
     </option>
   </component>
   <component name="ProjectId" id="1aIuZJfV28AqCYNVjsqVZbe7h7x" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -66,19 +85,52 @@
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RebelAgentSelection">
     <selection>jr</selection>
   </component>
-  <component name="RunManager" selected="Spring Boot.Demo02Application">
-    <configuration name="Demo02ApplicationTests.contextLoads" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Spring Boot.Demo03Application">
+    <configuration name="Demo01ApplicationTests.deleteLogic" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="demo01" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cn.demo01.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.cn.demo01" />
+      <option name="MAIN_CLASS_NAME" value="com.cn.demo01.Demo01ApplicationTests" />
+      <option name="METHOD_NAME" value="deleteLogic" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Demo01ApplicationTests.ifConfig" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="demo01" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cn.demo01.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.cn.demo01" />
+      <option name="MAIN_CLASS_NAME" value="com.cn.demo01.Demo01ApplicationTests" />
+      <option name="METHOD_NAME" value="ifConfig" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Demo02ApplicationTests.delete_MP" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="demo02" />
       <extension name="coverage">
         <pattern>
@@ -88,6 +140,38 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.cn.demo02" />
       <option name="MAIN_CLASS_NAME" value="com.cn.demo02.Demo02ApplicationTests" />
+      <option name="METHOD_NAME" value="delete_MP" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Demo02ApplicationTests.page" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="demo02" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cn.demo02.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.cn.demo02" />
+      <option name="MAIN_CLASS_NAME" value="com.cn.demo02.Demo02ApplicationTests" />
+      <option name="METHOD_NAME" value="page" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Demo03ApplicationTests.contextLoads" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="demo03" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cn.demo03.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.cn.demo03" />
+      <option name="MAIN_CLASS_NAME" value="com.cn.demo03.Demo03ApplicationTests" />
       <option name="METHOD_NAME" value="contextLoads" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -108,9 +192,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Demo03Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="demo03" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.cn.demo03.Demo03Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DemoApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="demo" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.cn.demo.DemoApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="demo" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.cn.demo03.demo.DemoApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.Demo02ApplicationTests.contextLoads" />
+        <item itemvalue="JUnit.Demo03ApplicationTests.contextLoads" />
+        <item itemvalue="JUnit.Demo01ApplicationTests.ifConfig" />
+        <item itemvalue="JUnit.Demo01ApplicationTests.deleteLogic" />
+        <item itemvalue="JUnit.Demo02ApplicationTests.page" />
+        <item itemvalue="JUnit.Demo02ApplicationTests.delete_MP" />
       </list>
     </recent_temporary>
   </component>
@@ -119,12 +228,7 @@
       <list>
         <serviceView>
           <treeState>
-            <expand>
-              <path>
-                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-                <item name="root:MySQL - test@localhost" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              </path>
-            </expand>
+            <expand />
             <select />
           </treeState>
         </serviceView>
@@ -142,7 +246,59 @@
       <option name="presentableId" value="Default" />
       <updated>1586435482108</updated>
       <workItem from="1586435486058" duration="18026000" />
+      <workItem from="1586489807837" duration="2081000" />
+      <workItem from="1586491931828" duration="17510000" />
     </task>
+    <task id="LOCAL-00001" summary="springboot集成mybatis(xml方式)">
+      <created>1586489948615</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1586489948615</updated>
+    </task>
+    <task id="LOCAL-00002" summary="springboot集成mybatis_plus(实现了简单的增删改查)">
+      <created>1586492398370</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1586492398370</updated>
+    </task>
+    <task id="LOCAL-00003" summary="实现了默认字段的修改（create_time,update_time）">
+      <created>1586493698597</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1586493698597</updated>
+    </task>
+    <task id="LOCAL-00004" summary="添加了乐观锁的version,用于避免并发条件下的脏读问题">
+      <created>1586494544296</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1586494544296</updated>
+    </task>
+    <task id="LOCAL-00005" summary="demo2的跟进">
+      <created>1586497838950</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1586497838950</updated>
+    </task>
+    <task id="LOCAL-00006" summary="demo1的后续">
+      <created>1586498913439</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1586498913439</updated>
+    </task>
+    <task id="LOCAL-00007" summary="下午训练MP">
+      <created>1586511910360</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1586511910360</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -151,15 +307,61 @@
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
+        <entry key="1">
+          <value>
+            <State>
+              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="roots">
+                    <value>
+                      <list>
+                        <option value="$PROJECT_DIR$" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
     </option>
+    <option name="OPEN_TABS">
+      <set>
+        <option value="1" />
+      </set>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="springboot集成mybatis(xml方式)" />
+    <MESSAGE value="springboot集成mybatis_plus(实现了简单的增删改查)" />
+    <MESSAGE value="实现了默认字段的修改（create_time,update_time）" />
+    <MESSAGE value="添加了乐观锁的version,用于避免并发条件下的脏读问题" />
+    <MESSAGE value="demo2的跟进" />
+    <MESSAGE value="demo1的后续" />
+    <MESSAGE value="下午训练MP" />
+    <option name="LAST_COMMIT_MESSAGE" value="下午训练MP" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="283" y="20" key="#DemoApplication_(1)" timestamp="1586569484284">
+      <screen x="0" y="0" width="1280" height="760" />
+    </state>
+    <state x="283" y="20" key="#DemoApplication_(1)/0.0.1280.760@0.0.1280.760" timestamp="1586569484284" />
     <state x="233" y="42" key="#Project_Structure" timestamp="1586439713346">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
@@ -168,10 +370,18 @@
       <screen x="0" y="0" width="1280" height="760" />
     </state>
     <state x="233" y="42" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.760@0.0.1280.760" timestamp="1586478166304" />
+    <state x="396" y="189" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1586568468040">
+      <screen x="0" y="0" width="1280" height="760" />
+    </state>
+    <state x="396" y="189" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1280.760@0.0.1280.760" timestamp="1586568468040" />
     <state x="446" y="89" key="#com.intellij.ide.util.MemberChooser" timestamp="1586440879538">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
     <state x="446" y="89" key="#com.intellij.ide.util.MemberChooser/0.0.1280.760@0.0.1280.760" timestamp="1586440879538" />
+    <state x="190" y="0" key="CommitChangelistDialog2" timestamp="1586570417083">
+      <screen x="0" y="0" width="1280" height="760" />
+    </state>
+    <state x="190" y="0" key="CommitChangelistDialog2/0.0.1280.760@0.0.1280.760" timestamp="1586570417083" />
     <state x="422" y="140" key="FileChooserDialogImpl" timestamp="1586489404734">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
@@ -180,69 +390,96 @@
       <screen x="0" y="0" width="1280" height="760" />
     </state>
     <state x="508" y="276" width="269" height="206" key="Github.ShareDialog/0.0.1280.760@0.0.1280.760" timestamp="1586488885810" />
-    <state width="1238" height="333" key="GridCell.Tab.0.bottom" timestamp="1586489774386">
+    <state width="1238" height="187" key="GridCell.Tab.0.bottom" timestamp="1586570274747">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
-    <state width="1238" height="333" key="GridCell.Tab.0.bottom/0.0.1280.760@0.0.1280.760" timestamp="1586489774386" />
-    <state width="1238" height="333" key="GridCell.Tab.0.center" timestamp="1586489774386">
+    <state width="1238" height="187" key="GridCell.Tab.0.bottom/0.0.1280.760@0.0.1280.760" timestamp="1586570274747" />
+    <state width="1238" height="187" key="GridCell.Tab.0.center" timestamp="1586570274747">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
-    <state width="1238" height="333" key="GridCell.Tab.0.center/0.0.1280.760@0.0.1280.760" timestamp="1586489774386" />
-    <state width="1238" height="333" key="GridCell.Tab.0.left" timestamp="1586489774386">
+    <state width="1238" height="187" key="GridCell.Tab.0.center/0.0.1280.760@0.0.1280.760" timestamp="1586570274747" />
+    <state width="1238" height="187" key="GridCell.Tab.0.left" timestamp="1586570274747">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
-    <state width="1238" height="333" key="GridCell.Tab.0.left/0.0.1280.760@0.0.1280.760" timestamp="1586489774386" />
-    <state width="1238" height="333" key="GridCell.Tab.0.right" timestamp="1586489774386">
+    <state width="1238" height="187" key="GridCell.Tab.0.left/0.0.1280.760@0.0.1280.760" timestamp="1586570274747" />
+    <state width="1238" height="187" key="GridCell.Tab.0.right" timestamp="1586570274747">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
-    <state width="1238" height="333" key="GridCell.Tab.0.right/0.0.1280.760@0.0.1280.760" timestamp="1586489774386" />
-    <state width="1238" height="333" key="GridCell.Tab.1.bottom" timestamp="1586489774386">
+    <state width="1238" height="187" key="GridCell.Tab.0.right/0.0.1280.760@0.0.1280.760" timestamp="1586570274747" />
+    <state width="1238" height="243" key="GridCell.Tab.1.bottom" timestamp="1586570248020">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
-    <state width="1238" height="333" key="GridCell.Tab.1.bottom/0.0.1280.760@0.0.1280.760" timestamp="1586489774386" />
-    <state width="1238" height="333" key="GridCell.Tab.1.center" timestamp="1586489774386">
+    <state width="1238" height="243" key="GridCell.Tab.1.bottom/0.0.1280.760@0.0.1280.760" timestamp="1586570248020" />
+    <state width="1238" height="243" key="GridCell.Tab.1.center" timestamp="1586570248020">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
-    <state width="1238" height="333" key="GridCell.Tab.1.center/0.0.1280.760@0.0.1280.760" timestamp="1586489774386" />
-    <state width="1238" height="333" key="GridCell.Tab.1.left" timestamp="1586489774386">
+    <state width="1238" height="243" key="GridCell.Tab.1.center/0.0.1280.760@0.0.1280.760" timestamp="1586570248020" />
+    <state width="1238" height="243" key="GridCell.Tab.1.left" timestamp="1586570248020">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
-    <state width="1238" height="333" key="GridCell.Tab.1.left/0.0.1280.760@0.0.1280.760" timestamp="1586489774386" />
-    <state width="1238" height="333" key="GridCell.Tab.1.right" timestamp="1586489774386">
+    <state width="1238" height="243" key="GridCell.Tab.1.left/0.0.1280.760@0.0.1280.760" timestamp="1586570248020" />
+    <state width="1238" height="243" key="GridCell.Tab.1.right" timestamp="1586570248020">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
-    <state width="1238" height="333" key="GridCell.Tab.1.right/0.0.1280.760@0.0.1280.760" timestamp="1586489774386" />
-    <state width="1238" height="63" key="GridCell.Tab.2.bottom" timestamp="1586489773172">
+    <state width="1238" height="243" key="GridCell.Tab.1.right/0.0.1280.760@0.0.1280.760" timestamp="1586570248020" />
+    <state width="1238" height="243" key="GridCell.Tab.2.bottom" timestamp="1586570248020">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
-    <state width="1238" height="63" key="GridCell.Tab.2.bottom/0.0.1280.760@0.0.1280.760" timestamp="1586489773172" />
-    <state width="1238" height="63" key="GridCell.Tab.2.center" timestamp="1586489773172">
+    <state width="1238" height="243" key="GridCell.Tab.2.bottom/0.0.1280.760@0.0.1280.760" timestamp="1586570248020" />
+    <state width="1238" height="243" key="GridCell.Tab.2.center" timestamp="1586570248020">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
-    <state width="1238" height="63" key="GridCell.Tab.2.center/0.0.1280.760@0.0.1280.760" timestamp="1586489773172" />
-    <state width="1238" height="63" key="GridCell.Tab.2.left" timestamp="1586489773172">
+    <state width="1238" height="243" key="GridCell.Tab.2.center/0.0.1280.760@0.0.1280.760" timestamp="1586570248020" />
+    <state width="1238" height="243" key="GridCell.Tab.2.left" timestamp="1586570248020">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
-    <state width="1238" height="63" key="GridCell.Tab.2.left/0.0.1280.760@0.0.1280.760" timestamp="1586489773172" />
-    <state width="1238" height="63" key="GridCell.Tab.2.right" timestamp="1586489773172">
+    <state width="1238" height="243" key="GridCell.Tab.2.left/0.0.1280.760@0.0.1280.760" timestamp="1586570248020" />
+    <state width="1238" height="243" key="GridCell.Tab.2.right" timestamp="1586570248020">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
-    <state width="1238" height="63" key="GridCell.Tab.2.right/0.0.1280.760@0.0.1280.760" timestamp="1586489773172" />
-    <state width="214" height="477" key="HiddenNamespacesPopup" timestamp="1586478184898">
+    <state width="1238" height="243" key="GridCell.Tab.2.right/0.0.1280.760@0.0.1280.760" timestamp="1586570248020" />
+    <state width="214" height="477" key="HiddenNamespacesPopup" timestamp="1586491367956">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
-    <state width="214" height="477" key="HiddenNamespacesPopup/0.0.1280.760@0.0.1280.760" timestamp="1586478184898" />
-    <state x="144" y="0" key="SettingsEditor" timestamp="1586489383119">
+    <state width="214" height="477" key="HiddenNamespacesPopup/0.0.1280.760@0.0.1280.760" timestamp="1586491367956" />
+    <state x="350" y="97" key="MultipleFileMergeDialog" timestamp="1586512126580">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
-    <state x="144" y="0" key="SettingsEditor/0.0.1280.760@0.0.1280.760" timestamp="1586489383119" />
-    <state x="118" y="129" key="Vcs.Push.Dialog.v2" timestamp="1586489604127">
+    <state x="350" y="97" key="MultipleFileMergeDialog/0.0.1280.760@0.0.1280.760" timestamp="1586512126580" />
+    <state x="144" y="0" key="SettingsEditor" timestamp="1586495351747">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
-    <state x="118" y="129" key="Vcs.Push.Dialog.v2/0.0.1280.760@0.0.1280.760" timestamp="1586489604127" />
-    <state x="6" y="85" key="new project wizard" timestamp="1586439682235">
+    <state x="144" y="0" key="SettingsEditor/0.0.1280.760@0.0.1280.760" timestamp="1586495351747" />
+    <state x="203" y="94" key="Vcs.Push.Dialog.v2" timestamp="1586511924489">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
-    <state x="6" y="85" key="new project wizard/0.0.1280.760@0.0.1280.760" timestamp="1586439682235" />
+    <state x="203" y="94" key="Vcs.Push.Dialog.v2/0.0.1280.760@0.0.1280.760" timestamp="1586511924489" />
+    <state x="371" y="189" key="com.intellij.database.dbimport.ImportUtil.MyDialog" timestamp="1586493366357">
+      <screen x="0" y="0" width="1280" height="760" />
+    </state>
+    <state x="371" y="189" key="com.intellij.database.dbimport.ImportUtil.MyDialog/0.0.1280.760@0.0.1280.760" timestamp="1586493366357" />
+    <state x="406" y="96" key="git4idea.branch.GitSmartOperationDialog" timestamp="1586512120113">
+      <screen x="0" y="0" width="1280" height="760" />
+    </state>
+    <state x="406" y="96" key="git4idea.branch.GitSmartOperationDialog/0.0.1280.760@0.0.1280.760" timestamp="1586512120113" />
+    <state x="6" y="85" key="new project wizard" timestamp="1586514826684">
+      <screen x="0" y="0" width="1280" height="760" />
+    </state>
+    <state x="6" y="85" key="new project wizard/0.0.1280.760@0.0.1280.760" timestamp="1586514826684" />
+    <state x="303" y="82" width="672" height="678" key="search.everywhere.popup" timestamp="1586498135974">
+      <screen x="0" y="0" width="1280" height="760" />
+    </state>
+    <state x="303" y="82" width="672" height="678" key="search.everywhere.popup/0.0.1280.760@0.0.1280.760" timestamp="1586498135974" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/demo03/src/main/java/com/cn/demo03/Sevice/Impl/UserServiceImpl.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
