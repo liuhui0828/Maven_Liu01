@@ -1,20 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e3b9dfb6-524f-45ea-a39a-56e6877e4c38" name="Default Changelist" comment="下午训练MP">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo03/src/main/java/com/cn/demo03/Controller/UserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo03/src/main/java/com/cn/demo03/Mapper/UserMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo03/src/main/java/com/cn/demo03/Pojo/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo03/src/main/java/com/cn/demo03/Sevice/Impl/UserServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo03/src/main/java/com/cn/demo03/Sevice/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo03/src/main/resources/mapper/UserMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="e3b9dfb6-524f-45ea-a39a-56e6877e4c38" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/demo03/src/main/resources/mybatisConfig.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo01/src/main/java/com/cn/demo01/Pojo/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo01/src/main/java/com/cn/demo01/Pojo/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo03/src/main/java/com/cn/demo03/Pojo/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo03/src/main/java/com/cn/demo03/Pojo/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo03/src/main/java/com/cn/demo03/Sevice/Impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo03/src/main/java/com/cn/demo03/Sevice/Impl/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo03/src/main/resources/mapper/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/demo03/src/main/resources/mapper/UserMapper.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,7 +90,7 @@
   <component name="RebelAgentSelection">
     <selection>jr</selection>
   </component>
-  <component name="RunManager" selected="Spring Boot.Demo03Application">
+  <component name="RunManager" selected="JUnit.Demo03ApplicationTests.contextLoads">
     <configuration name="Demo01ApplicationTests.deleteLogic" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="demo01" />
       <extension name="coverage">
@@ -247,7 +240,7 @@
       <updated>1586435482108</updated>
       <workItem from="1586435486058" duration="18026000" />
       <workItem from="1586489807837" duration="2081000" />
-      <workItem from="1586491931828" duration="17510000" />
+      <workItem from="1586491931828" duration="20031000" />
     </task>
     <task id="LOCAL-00001" summary="springboot集成mybatis(xml方式)">
       <created>1586489948615</created>
@@ -298,7 +291,14 @@
       <option name="project" value="LOCAL" />
       <updated>1586511910360</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="4.11AM.mybatis xml">
+      <created>1586570556063</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1586570556063</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -355,7 +355,8 @@
     <MESSAGE value="demo2的跟进" />
     <MESSAGE value="demo1的后续" />
     <MESSAGE value="下午训练MP" />
-    <option name="LAST_COMMIT_MESSAGE" value="下午训练MP" />
+    <MESSAGE value="4.11AM.mybatis xml" />
+    <option name="LAST_COMMIT_MESSAGE" value="4.11AM.mybatis xml" />
   </component>
   <component name="WindowStateProjectService">
     <state x="283" y="20" key="#DemoApplication_(1)" timestamp="1586569484284">
@@ -374,14 +375,14 @@
       <screen x="0" y="0" width="1280" height="760" />
     </state>
     <state x="396" y="189" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1280.760@0.0.1280.760" timestamp="1586568468040" />
-    <state x="446" y="89" key="#com.intellij.ide.util.MemberChooser" timestamp="1586440879538">
+    <state x="446" y="89" key="#com.intellij.ide.util.MemberChooser" timestamp="1586571154514">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
-    <state x="446" y="89" key="#com.intellij.ide.util.MemberChooser/0.0.1280.760@0.0.1280.760" timestamp="1586440879538" />
-    <state x="190" y="0" key="CommitChangelistDialog2" timestamp="1586570417083">
+    <state x="446" y="89" key="#com.intellij.ide.util.MemberChooser/0.0.1280.760@0.0.1280.760" timestamp="1586571154514" />
+    <state x="190" y="0" key="CommitChangelistDialog2" timestamp="1586570554212">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
-    <state x="190" y="0" key="CommitChangelistDialog2/0.0.1280.760@0.0.1280.760" timestamp="1586570417083" />
+    <state x="190" y="0" key="CommitChangelistDialog2/0.0.1280.760@0.0.1280.760" timestamp="1586570554212" />
     <state x="422" y="140" key="FileChooserDialogImpl" timestamp="1586489404734">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
@@ -390,38 +391,38 @@
       <screen x="0" y="0" width="1280" height="760" />
     </state>
     <state x="508" y="276" width="269" height="206" key="Github.ShareDialog/0.0.1280.760@0.0.1280.760" timestamp="1586488885810" />
-    <state width="1238" height="187" key="GridCell.Tab.0.bottom" timestamp="1586570274747">
+    <state width="1238" height="175" key="GridCell.Tab.0.bottom" timestamp="1586573076139">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
-    <state width="1238" height="187" key="GridCell.Tab.0.bottom/0.0.1280.760@0.0.1280.760" timestamp="1586570274747" />
-    <state width="1238" height="187" key="GridCell.Tab.0.center" timestamp="1586570274747">
+    <state width="1238" height="175" key="GridCell.Tab.0.bottom/0.0.1280.760@0.0.1280.760" timestamp="1586573076139" />
+    <state width="1238" height="175" key="GridCell.Tab.0.center" timestamp="1586573076139">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
-    <state width="1238" height="187" key="GridCell.Tab.0.center/0.0.1280.760@0.0.1280.760" timestamp="1586570274747" />
-    <state width="1238" height="187" key="GridCell.Tab.0.left" timestamp="1586570274747">
+    <state width="1238" height="175" key="GridCell.Tab.0.center/0.0.1280.760@0.0.1280.760" timestamp="1586573076139" />
+    <state width="1238" height="175" key="GridCell.Tab.0.left" timestamp="1586573076139">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
-    <state width="1238" height="187" key="GridCell.Tab.0.left/0.0.1280.760@0.0.1280.760" timestamp="1586570274747" />
-    <state width="1238" height="187" key="GridCell.Tab.0.right" timestamp="1586570274747">
+    <state width="1238" height="175" key="GridCell.Tab.0.left/0.0.1280.760@0.0.1280.760" timestamp="1586573076139" />
+    <state width="1238" height="175" key="GridCell.Tab.0.right" timestamp="1586573076139">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
-    <state width="1238" height="187" key="GridCell.Tab.0.right/0.0.1280.760@0.0.1280.760" timestamp="1586570274747" />
-    <state width="1238" height="243" key="GridCell.Tab.1.bottom" timestamp="1586570248020">
+    <state width="1238" height="175" key="GridCell.Tab.0.right/0.0.1280.760@0.0.1280.760" timestamp="1586573076139" />
+    <state width="619" height="187" key="GridCell.Tab.1.bottom" timestamp="1586570586886">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
-    <state width="1238" height="243" key="GridCell.Tab.1.bottom/0.0.1280.760@0.0.1280.760" timestamp="1586570248020" />
-    <state width="1238" height="243" key="GridCell.Tab.1.center" timestamp="1586570248020">
+    <state width="619" height="187" key="GridCell.Tab.1.bottom/0.0.1280.760@0.0.1280.760" timestamp="1586570586886" />
+    <state width="619" height="187" key="GridCell.Tab.1.center" timestamp="1586570586886">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
-    <state width="1238" height="243" key="GridCell.Tab.1.center/0.0.1280.760@0.0.1280.760" timestamp="1586570248020" />
-    <state width="1238" height="243" key="GridCell.Tab.1.left" timestamp="1586570248020">
+    <state width="619" height="187" key="GridCell.Tab.1.center/0.0.1280.760@0.0.1280.760" timestamp="1586570586886" />
+    <state width="619" height="187" key="GridCell.Tab.1.left" timestamp="1586570586886">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
-    <state width="1238" height="243" key="GridCell.Tab.1.left/0.0.1280.760@0.0.1280.760" timestamp="1586570248020" />
-    <state width="1238" height="243" key="GridCell.Tab.1.right" timestamp="1586570248020">
+    <state width="619" height="187" key="GridCell.Tab.1.left/0.0.1280.760@0.0.1280.760" timestamp="1586570586886" />
+    <state width="619" height="187" key="GridCell.Tab.1.right" timestamp="1586570586886">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
-    <state width="1238" height="243" key="GridCell.Tab.1.right/0.0.1280.760@0.0.1280.760" timestamp="1586570248020" />
+    <state width="619" height="187" key="GridCell.Tab.1.right/0.0.1280.760@0.0.1280.760" timestamp="1586570586886" />
     <state width="1238" height="243" key="GridCell.Tab.2.bottom" timestamp="1586570248020">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
@@ -450,10 +451,10 @@
       <screen x="0" y="0" width="1280" height="760" />
     </state>
     <state x="144" y="0" key="SettingsEditor/0.0.1280.760@0.0.1280.760" timestamp="1586495351747" />
-    <state x="203" y="94" key="Vcs.Push.Dialog.v2" timestamp="1586511924489">
+    <state x="203" y="94" key="Vcs.Push.Dialog.v2" timestamp="1586570574230">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
-    <state x="203" y="94" key="Vcs.Push.Dialog.v2/0.0.1280.760@0.0.1280.760" timestamp="1586511924489" />
+    <state x="203" y="94" key="Vcs.Push.Dialog.v2/0.0.1280.760@0.0.1280.760" timestamp="1586570574230" />
     <state x="371" y="189" key="com.intellij.database.dbimport.ImportUtil.MyDialog" timestamp="1586493366357">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
@@ -470,16 +471,5 @@
       <screen x="0" y="0" width="1280" height="760" />
     </state>
     <state x="303" y="82" width="672" height="678" key="search.everywhere.popup/0.0.1280.760@0.0.1280.760" timestamp="1586498135974" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/demo03/src/main/java/com/cn/demo03/Sevice/Impl/UserServiceImpl.java</url>
-          <line>17</line>
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>

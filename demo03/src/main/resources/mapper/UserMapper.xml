@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
 <mapper namespace="com.cn.demo03.Mapper.UserMapper" >
-    <select id="getAllUsers" resultType="com.cn.demo03.Pojo.User">
+
+    <resultMap id="usermap" type="User">
+        <result property="name" column="username"></result>
+        <result property="psd" column="password" ></result>
+    </resultMap>
+
+    <select id="getAllUsers" resultMap="usermap">
         select * from user;
     </select>
 
