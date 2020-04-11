@@ -1,15 +1,15 @@
 package com.cn.demo01.Pojo;
 
-import lombok.AllArgsConstructor;
-import lombok.Data;
-import lombok.NoArgsConstructor;
+import lombok.*;
 
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
-
+@RequiredArgsConstructor
 public class User {
     int id;
-    String username;
-    String password;
+    @NonNull
+    String name;
+    @NonNull
+    String psd;
 }
