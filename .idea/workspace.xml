@@ -2,44 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e3b9dfb6-524f-45ea-a39a-56e6877e4c38" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Moudle01/Moudle01.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Moudle01/src/main/resources/rebel.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo01/demo01.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo01/src/main/java/com/cn/demo01/Config/swaggerConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo01/src/main/java/com/cn/demo01/Controller/BookContoller.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo01/src/main/java/com/cn/demo01/Controller/PageContorller.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo01/src/main/resources/mybatisConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo01/src/main/resources/rebel.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo01/src/main/resources/templates/Login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo01/src/main/resources/templates/Success.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo01/src/main/resources/templates/error.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo01/src/main/resources/templates/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo01/src/main/resources/templates/register.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo02/demo02.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo02/src/main/resources/rebel.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo03/demo03.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo03/src/main/resources/rebel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo01/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/demo01/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo01/src/main/java/com/cn/demo01/Controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo01/src/main/java/com/cn/demo01/Controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo01/src/main/java/com/cn/demo01/Mapper/UserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo01/src/main/java/com/cn/demo01/Mapper/UserMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo01/src/main/java/com/cn/demo01/Pojo/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo01/src/main/java/com/cn/demo01/Pojo/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo01/src/main/java/com/cn/demo01/Service/Impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo01/src/main/java/com/cn/demo01/Service/Impl/UserServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo01/src/main/java/com/cn/demo01/Service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo01/src/main/java/com/cn/demo01/Service/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo01/src/main/resources/Mapper/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/demo01/src/main/resources/Mapper/UserMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo01/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/demo01/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo01/src/test/java/com/cn/demo01/Demo01ApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo01/src/test/java/com/cn/demo01/Demo01ApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo01/target/classes/Mapper/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/demo01/target/classes/Mapper/UserMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo01/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/demo01/target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo01/target/classes/com/cn/demo01/Controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/demo01/target/classes/com/cn/demo01/Controller/UserController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo01/target/classes/com/cn/demo01/Mapper/UserMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/demo01/target/classes/com/cn/demo01/Mapper/UserMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo01/target/classes/com/cn/demo01/Pojo/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/demo01/target/classes/com/cn/demo01/Pojo/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo01/target/classes/com/cn/demo01/Service/Impl/UserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/demo01/target/classes/com/cn/demo01/Service/Impl/UserServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo01/target/classes/com/cn/demo01/Service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/demo01/target/classes/com/cn/demo01/Service/UserService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo01/target/test-classes/com/cn/demo01/Demo01ApplicationTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/demo01/target/test-classes/com/cn/demo01/Demo01ApplicationTests.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -309,7 +272,7 @@
       <updated>1586435482108</updated>
       <workItem from="1586435486058" duration="18026000" />
       <workItem from="1586489807837" duration="2081000" />
-      <workItem from="1586491931828" duration="37660000" />
+      <workItem from="1586491931828" duration="38106000" />
     </task>
     <task id="LOCAL-00001" summary="springboot集成mybatis(xml方式)">
       <created>1586489948615</created>
@@ -374,7 +337,14 @@
       <option name="project" value="LOCAL" />
       <updated>1586573205308</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="mybatis实现登录注册基本功能，4.11PM">
+      <created>1586609758783</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1586609758783</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -433,7 +403,8 @@
     <MESSAGE value="下午训练MP" />
     <MESSAGE value="4.11AM.mybatis xml" />
     <MESSAGE value="mybatisConfig.xml优化" />
-    <option name="LAST_COMMIT_MESSAGE" value="mybatisConfig.xml优化" />
+    <MESSAGE value="mybatis实现登录注册基本功能，4.11PM" />
+    <option name="LAST_COMMIT_MESSAGE" value="mybatis实现登录注册基本功能，4.11PM" />
   </component>
   <component name="WindowStateProjectService">
     <state x="283" y="20" key="#DemoApplication_(1)" timestamp="1586569484284">
@@ -460,10 +431,10 @@
       <screen x="0" y="0" width="1280" height="760" />
     </state>
     <state x="446" y="89" key="#com.intellij.ide.util.MemberChooser/0.0.1280.760@0.0.1280.760" timestamp="1586599419314" />
-    <state x="190" y="0" key="CommitChangelistDialog2" timestamp="1586573203695">
+    <state x="238" y="-1" key="CommitChangelistDialog2" timestamp="1586609756086">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
-    <state x="190" y="0" key="CommitChangelistDialog2/0.0.1280.760@0.0.1280.760" timestamp="1586573203695" />
+    <state x="238" y="-1" key="CommitChangelistDialog2/0.0.1280.760@0.0.1280.760" timestamp="1586609756086" />
     <state x="422" y="140" key="FileChooserDialogImpl" timestamp="1586489404734">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
